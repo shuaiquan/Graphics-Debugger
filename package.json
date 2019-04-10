@@ -1,0 +1,45 @@
+{
+  "name": "graphics-debugger",
+  "version": "1.0.0",
+  "description": "this is tool for debugging graphic demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "webpack --progress --colors --bail",
+    "start": "webpack-dev-server --progress --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuaiquan/Graphics-Debugger.git"
+  },
+  "keywords": [
+    "three",
+    "react",
+    "graphics"
+  ],
+  "author": "shuaiquan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shuaiquan/Graphics-Debugger/issues"
+  },
+  "homepage": "https://github.com/shuaiquan/Graphics-Debugger#readme",
+  "dependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.4",
+    "source-map-loader": "^0.2.4",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
